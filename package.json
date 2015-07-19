@@ -1,0 +1,27 @@
+{
+  "name"        : "hexo-more-css",
+  "version"     : "0.1.0-dev",
+  "description" : "more-css plugin for Hexo.",
+  "keywords"    : [ "hexo", "more-css", "plugin" ],
+  "homepage"    : "https://github.com/vseventer/hexo-more-css",
+  "bugs"        : "https://github.com/vseventer/hexo-more-css/issues",
+  "license"     : "MIT",
+  "author"      : "Mark van Seventer <mark@vseventer.com>",
+  "repository"  : { "type": "git", "url": "vseventer/hexo-more-css" },
+  "main"        : "./index.js",
+  "scripts"     : {
+    "pretest" : "./node_modules/.bin/jshint --reporter=./node_modules/jshint-stylish lib/ test/ *.js",
+    "test"    : "./node_modules/.bin/mocha test/"
+  },
+  "dependencies": {
+    "minimatch"     : "2.0.x",
+    "more-css"      : "0.12.x",
+    "object-assign" : "3.0.x"
+  },
+  "devDependencies": {
+    "jshint" : "2.8.x",
+    "jshint-stylish": "2.0.x",
+    "mocha"  : "2.2.x"
+  },
+  "engines": { "node" : ">=0.10.x" }
+}
