@@ -1,6 +1,6 @@
 {
   "name"        : "hexo-more-css",
-  "version"     : "0.1.0-dev",
+  "version"     : "0.1.0",
   "description" : "more-css plugin for Hexo.",
   "keywords"    : [ "hexo", "more-css", "plugin" ],
   "homepage"    : "https://github.com/vseventer/hexo-more-css",
