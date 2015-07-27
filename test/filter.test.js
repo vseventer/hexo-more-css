@@ -65,7 +65,7 @@ describe('hexo-more-css', function() {
     var data = 'div { color: black }';
     var hexo = {
       config: {
-        more_css: { enabled: false, exclude: [ ] }
+        more_css: { enable: false, exclude: [ ] }
       }
     };
 

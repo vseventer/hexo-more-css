@@ -1,8 +1,8 @@
 {
   "name"        : "hexo-more-css",
-  "version"     : "0.1.0",
+  "version"     : "0.2.0",
   "description" : "more-css plugin for Hexo.",
-  "keywords"    : [ "hexo", "more-css", "plugin" ],
+  "keywords"    : [ "hexo", "hexo-plugin", "hexo-filter", "more-css", "css" ],
   "homepage"    : "https://github.com/vseventer/hexo-more-css",
   "bugs"        : "https://github.com/vseventer/hexo-more-css/issues",
   "license"     : "MIT",

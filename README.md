@@ -11,14 +11,19 @@ You can configure this plugin in `_config.yml`.
 
 ```yaml
 more_css:
-  enabled : true
+  enable  : true
   exclude : *.min.css
   radical : true
 ```
 
-- **enabled** - Enable the plugin. Defaults to `true`.
+- **enable** - Enable the plugin. Defaults to `true`.
 - **exclude** - Exclude files.
 - **radical** - Apply further minimization. Defaults to `true`.
+
+## Alternatives
+- [hexo-clean-css](https://www.npmjs.com/package/hexo-clean-css)
+
+See the [CSS minification benchmark](https://goalsmashers.github.io/css-minification-benchmark/) for a comparison of CSS compressors.
 
 ## Changelog
 See the [Changelog](./CHANGELOG.md) for a list of changes.
