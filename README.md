@@ -1,5 +1,5 @@
 # more-css plugin for [Hexo](https://hexo.io)
-> Compress CSS with [more-css](https://www.npmjs.com/package/more-css).
+> Compress CSS with [more-css](https://github.com/army8735/more).
 
 ## Install
 ```bash
@@ -20,8 +20,11 @@ more_css:
 - **exclude** - Exclude files.
 - **radical** - Apply further minimization. Defaults to `true`.
 
+## Debugging
+Launch the node process like `DEBUG=hexo:more-css hexo ...` to inspect debug messages.
+
 ## Alternatives
-- [hexo-clean-css](https://www.npmjs.com/package/hexo-clean-css)
+- [hexo-clean-css](https://github.com/hexojs/hexo-clean-css)
 
 See the [CSS minification benchmark](https://goalsmashers.github.io/css-minification-benchmark/) for a comparison of CSS compressors.
 
